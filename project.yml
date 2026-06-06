@@ -8,6 +8,14 @@ targets:
     sources:
       - path: Sources/App
         group: App
+      - path: Sources/Core
+        group: Core
+      - path: Sources/AgentConfiguration
+        group: AgentConfiguration
+      - path: Sources/DesktopBridge
+        group: DesktopBridge
+      - path: Sources/SocketMarketplace
+        group: SocketMarketplace
     info:
       path: Sources/Support/Info.plist
       properties:

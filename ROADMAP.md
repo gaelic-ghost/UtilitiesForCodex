@@ -35,6 +35,12 @@ Keep the app simple and feature-oriented:
 
 This is a durable building-block change, not a stopgap. The practical effect is that views can render real app state while writes, service hosting, and automation actions remain behind explicit model and service boundaries.
 
+## Persistence Direction
+
+Use Core Data for app persistence once the app has state worth saving.
+
+Initial persistence use cases are expected to be backup records, sync history, target-specific compatibility decisions, user-approved apply plans, service logs, and allowlist or denylist settings. Until one of those exists, keep read-only discovery and status state in memory so the app does not carry idle persistence code.
+
 ## First Implementation Milestones
 
 1. App state model

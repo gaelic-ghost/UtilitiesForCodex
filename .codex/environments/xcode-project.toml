@@ -1,0 +1,22 @@
+# Copy to .codex/environments/xcode-project.toml and replace UtilitiesForCodex.
+# Keep DerivedData inside the worktree so Codex GUI worktree validation is isolated.
+version = 1
+name = "xcode-project"
+
+[setup]
+script = "xcodebuild -scheme UtilitiesForCodex -derivedDataPath ./DerivedData -resolvePackageDependencies"
+
+[[actions]]
+name = "resolve packages"
+icon = "tool"
+command = "xcodebuild -scheme UtilitiesForCodex -derivedDataPath ./DerivedData -resolvePackageDependencies"
+
+[[actions]]
+name = "build"
+icon = "tool"
+command = "xcodebuild -scheme UtilitiesForCodex -derivedDataPath ./DerivedData build"
+
+[[actions]]
+name = "test"
+icon = "tool"
+command = "xcodebuild -scheme UtilitiesForCodex -derivedDataPath ./DerivedData test"

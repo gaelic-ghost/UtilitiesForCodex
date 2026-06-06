@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# SwiftPM and build products
+.build/
+build/
+
+# macOS
+.DS_Store
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+*.xcconfig.local

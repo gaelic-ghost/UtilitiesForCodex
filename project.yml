@@ -1,0 +1,31 @@
+name: UtilitiesForCodex
+options:
+  minimumXcodeGenVersion: 2.39.0
+targets:
+  UtilitiesForCodex:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/App
+        group: App
+    info:
+      path: Sources/Support/Info.plist
+      properties:
+        CFBundleDisplayName: $(APP_DISPLAY_NAME)
+    configFiles:
+      Debug: Configurations/App-Debug.xcconfig
+      Release: Configurations/App-Release.xcconfig
+    scheme:
+      testTargets:
+        - UtilitiesForCodexTests
+  UtilitiesForCodexTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests/UtilitiesForCodexTests
+        group: Tests
+    configFiles:
+      Debug: Configurations/Tests-Debug.xcconfig
+      Release: Configurations/Tests-Release.xcconfig
+    dependencies:
+      - target: UtilitiesForCodex

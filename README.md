@@ -8,6 +8,7 @@ The first planned service is a desktop automation bridge for Socket's `codex-uti
 
 - Install and maintain the Socket marketplace in the user's Codex environment.
 - Host stable local services for Codex utilities that need macOS trust surfaces.
+- Coordinate requested Codex GUI restarts through an app-owned local service when assistant-turn safety checks allow it.
 - Keep Accessibility, automation permissions, signing, notarization, and service identity attached to one installed app.
 - Let Socket plugins expose lightweight MCP and skill adapters instead of shipping relocatable `.app` bundles.
 

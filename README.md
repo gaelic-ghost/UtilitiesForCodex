@@ -16,6 +16,7 @@ The first planned service is a desktop automation bridge for Socket's `codex-uti
 - Native macOS SwiftUI app.
 - XcodeGen-backed project with checked-in external `.xcconfig` build settings.
 - Menu bar-oriented starter shell.
+- Root roadmap in `ROADMAP.md`.
 - Detailed architecture plan in `docs/plans/desktop-bridge-plan.md`.
 
 ## Development

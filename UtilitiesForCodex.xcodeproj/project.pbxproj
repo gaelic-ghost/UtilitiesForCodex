@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF2778B52B9E32974D94FDE /* DesktopBridgeStatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3B5FC43887F3EF7352FF1 /* DesktopBridgeStatusProvider.swift */; };
+		484C20C3BDF5C48849260968 /* RuntimeStatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3BB14E818E89DC930D2AC8 /* RuntimeStatusProvider.swift */; };
 		48BD054793EFD013138919D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223D94B17EE7F7CA3260354 /* ContentView.swift */; };
+		5B15DAADB3CFA0AA5412BBF1 /* DiagnosticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABE3F49FD8BA1FAD45971E /* DiagnosticMessage.swift */; };
+		5BA22A3947B5EF24D338DB01 /* PermissionStatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05ECC5A7F776293D5875A4 /* PermissionStatusProvider.swift */; };
+		A2120AA7CBBAA23871E55D3D /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA519345016D284CB787093 /* AppModel.swift */; };
+		AC60C9631FAD4536EC4D818E /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CD4EE9D6C537FBA0694902 /* StatusItem.swift */; };
+		B407E5CA4FA8182C1EC042E7 /* AgentTargetDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A886276A651AC8DB519CF7 /* AgentTargetDiscoveryService.swift */; };
+		CA09E8698DB4936C89674B52 /* ProcessRunning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D30CEB78A1533BD9E7D4BB /* ProcessRunning.swift */; };
 		CABC0E1648B2D4C25398CCBB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102AC0CE8AB22CAB8C429F1 /* App.swift */; };
+		D9276FFB603938224052E178 /* AgentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32A48071BB9275F5041B26 /* AgentTarget.swift */; };
+		DE2081F795A93E99864623A0 /* RuntimeStatusSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2441880FC326B57012D1A /* RuntimeStatusSnapshot.swift */; };
+		F2DE309641B66E1B9106E99D /* SocketMarketplaceStatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DFBF05497207FFA86DAFB7 /* SocketMarketplaceStatusProvider.swift */; };
 		F7E5C5FE73F6E91292D70F5E /* UtilitiesForCodexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD7431D3BC0CAB1CFC685E /* UtilitiesForCodexTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,15 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18ABE3F49FD8BA1FAD45971E /* DiagnosticMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticMessage.swift; sourceTree = "<group>"; };
+		1F32A48071BB9275F5041B26 /* AgentTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTarget.swift; sourceTree = "<group>"; };
+		29CD4EE9D6C537FBA0694902 /* StatusItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
+		2DA519345016D284CB787093 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		2F55B558A85E1AE532EA86A6 /* Tests-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-Release.xcconfig"; sourceTree = "<group>"; };
+		35DFBF05497207FFA86DAFB7 /* SocketMarketplaceStatusProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketMarketplaceStatusProvider.swift; sourceTree = "<group>"; };
+		4E05ECC5A7F776293D5875A4 /* PermissionStatusProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionStatusProvider.swift; sourceTree = "<group>"; };
 		51FB89893BDAC4814DB80C7E /* UtilitiesForCodexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilitiesForCodexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A681C0E86EB5C25E8329B7 /* Tests-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-Debug.xcconfig"; sourceTree = "<group>"; };
+		70A886276A651AC8DB519CF7 /* AgentTargetDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTargetDiscoveryService.swift; sourceTree = "<group>"; };
 		8102AC0CE8AB22CAB8C429F1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		8223D94B17EE7F7CA3260354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CE2441880FC326B57012D1A /* RuntimeStatusSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeStatusSnapshot.swift; sourceTree = "<group>"; };
 		A4DA9861BE699836C1097287 /* App-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "App-Release.xcconfig"; sourceTree = "<group>"; };
 		A57F001113AF54A06C680E91 /* UtilitiesForCodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UtilitiesForCodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B834EB0E136A20037BBAD6 /* App-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "App-Debug.xcconfig"; sourceTree = "<group>"; };
 		B6DD7431D3BC0CAB1CFC685E /* UtilitiesForCodexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesForCodexTests.swift; sourceTree = "<group>"; };
+		BD3BB14E818E89DC930D2AC8 /* RuntimeStatusProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeStatusProvider.swift; sourceTree = "<group>"; };
+		F6E3B5FC43887F3EF7352FF1 /* DesktopBridgeStatusProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopBridgeStatusProvider.swift; sourceTree = "<group>"; };
+		F8D30CEB78A1533BD9E7D4BB /* ProcessRunning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessRunning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -43,6 +65,16 @@
 			name = App;
 			sourceTree = "<group>";
 		};
+		0AA0C0082CCAF71FF53987E5 /* AgentConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				1F32A48071BB9275F5041B26 /* AgentTarget.swift */,
+				70A886276A651AC8DB519CF7 /* AgentTargetDiscoveryService.swift */,
+			);
+			name = AgentConfiguration;
+			path = Sources/AgentConfiguration;
+			sourceTree = "<group>";
+		};
 		115462982902618230CF7C76 /* UtilitiesForCodexTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,14 +84,35 @@
 			path = UtilitiesForCodexTests;
 			sourceTree = "<group>";
 		};
+		1CC977D9C82EAB3C4CA86B31 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				31A8892A137B9E783EF1A955 /* Diagnostics */,
+				DD2232FBEAD0FC7966994FC6 /* Process */,
+				93F2DBC95FD6CB5EA0747932 /* Status */,
+			);
+			name = Core;
+			path = Sources/Core;
+			sourceTree = "<group>";
+		};
 		2B5378745F29861D7063B3CE /* App */ = {
 			isa = PBXGroup;
 			children = (
 				8102AC0CE8AB22CAB8C429F1 /* App.swift */,
+				2DA519345016D284CB787093 /* AppModel.swift */,
 				8223D94B17EE7F7CA3260354 /* ContentView.swift */,
+				BD3BB14E818E89DC930D2AC8 /* RuntimeStatusProvider.swift */,
 			);
 			name = App;
 			path = Sources/App;
+			sourceTree = "<group>";
+		};
+		31A8892A137B9E783EF1A955 /* Diagnostics */ = {
+			isa = PBXGroup;
+			children = (
+				18ABE3F49FD8BA1FAD45971E /* DiagnosticMessage.swift */,
+			);
+			path = Diagnostics;
 			sourceTree = "<group>";
 		};
 		4A76879D240FBB869FE4333C /* Tests */ = {
@@ -68,6 +121,23 @@
 				115462982902618230CF7C76 /* UtilitiesForCodexTests */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		4A7E25147FD969A42DF69E16 /* DesktopBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A950D5A67E2025113EB68705 /* DesktopBridge */,
+			);
+			name = DesktopBridge;
+			sourceTree = "<group>";
+		};
+		5FDF9F557037E41206B36D46 /* SocketMarketplace */ = {
+			isa = PBXGroup;
+			children = (
+				35DFBF05497207FFA86DAFB7 /* SocketMarketplaceStatusProvider.swift */,
+			);
+			name = SocketMarketplace;
+			path = Sources/SocketMarketplace;
 			sourceTree = "<group>";
 		};
 		745386DD419447EAB6366183 /* Configurations */ = {
@@ -81,14 +151,37 @@
 			path = Configurations;
 			sourceTree = "<group>";
 		};
+		93F2DBC95FD6CB5EA0747932 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				9CE2441880FC326B57012D1A /* RuntimeStatusSnapshot.swift */,
+				29CD4EE9D6C537FBA0694902 /* StatusItem.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
 		99F1B0F389F42FC15E4AE1C3 = {
 			isa = PBXGroup;
 			children = (
+				B8F63D4B033A2E74905F1377 /* AgentConfiguration */,
 				037FB1FE0A59D1141DFC6B23 /* App */,
 				745386DD419447EAB6366183 /* Configurations */,
+				C2A24C284338370551601CAC /* Core */,
+				4A7E25147FD969A42DF69E16 /* DesktopBridge */,
+				AE69937101102FE150A61994 /* SocketMarketplace */,
 				4A76879D240FBB869FE4333C /* Tests */,
 				AB752DD56CDF3CFA3C0AAD25 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		A950D5A67E2025113EB68705 /* DesktopBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3B5FC43887F3EF7352FF1 /* DesktopBridgeStatusProvider.swift */,
+				4E05ECC5A7F776293D5875A4 /* PermissionStatusProvider.swift */,
+			);
+			name = DesktopBridge;
+			path = Sources/DesktopBridge;
 			sourceTree = "<group>";
 		};
 		AB752DD56CDF3CFA3C0AAD25 /* Products */ = {
@@ -98,6 +191,38 @@
 				51FB89893BDAC4814DB80C7E /* UtilitiesForCodexTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE69937101102FE150A61994 /* SocketMarketplace */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F557037E41206B36D46 /* SocketMarketplace */,
+			);
+			name = SocketMarketplace;
+			sourceTree = "<group>";
+		};
+		B8F63D4B033A2E74905F1377 /* AgentConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				0AA0C0082CCAF71FF53987E5 /* AgentConfiguration */,
+			);
+			name = AgentConfiguration;
+			sourceTree = "<group>";
+		};
+		C2A24C284338370551601CAC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1CC977D9C82EAB3C4CA86B31 /* Core */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DD2232FBEAD0FC7966994FC6 /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				F8D30CEB78A1533BD9E7D4BB /* ProcessRunning.swift */,
+			);
+			path = Process;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +307,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9276FFB603938224052E178 /* AgentTarget.swift in Sources */,
+				B407E5CA4FA8182C1EC042E7 /* AgentTargetDiscoveryService.swift in Sources */,
 				CABC0E1648B2D4C25398CCBB /* App.swift in Sources */,
+				A2120AA7CBBAA23871E55D3D /* AppModel.swift in Sources */,
 				48BD054793EFD013138919D6 /* ContentView.swift in Sources */,
+				0FF2778B52B9E32974D94FDE /* DesktopBridgeStatusProvider.swift in Sources */,
+				5B15DAADB3CFA0AA5412BBF1 /* DiagnosticMessage.swift in Sources */,
+				5BA22A3947B5EF24D338DB01 /* PermissionStatusProvider.swift in Sources */,
+				CA09E8698DB4936C89674B52 /* ProcessRunning.swift in Sources */,
+				484C20C3BDF5C48849260968 /* RuntimeStatusProvider.swift in Sources */,
+				DE2081F795A93E99864623A0 /* RuntimeStatusSnapshot.swift in Sources */,
+				F2DE309641B66E1B9106E99D /* SocketMarketplaceStatusProvider.swift in Sources */,
+				AC60C9631FAD4536EC4D818E /* StatusItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
